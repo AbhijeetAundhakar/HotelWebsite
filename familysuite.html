@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="suite.css">
+    <title>Form</title>        
+    <style>
+        body{
+    padding: 100px;
+    background: url('./family_suite/2.jpg')no-repeat center center/cover;
+}
+#container {
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 500px;
+    width: 350px;
+    margin: auto;
+    padding: 10px 30px;
+    float: right;
+    border-radius: 10px;
+}
+
+#container h2{
+    color: white;
+}
+
+.form input{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    outline: 0;
+}
+
+.main_form{
+    display: flex;
+    justify-content: center;
+}
+
+.form select{
+   height: 30px;
+   width: 150px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    outline: 0;
+    color: rgb(104, 93, 93);
+}
+
+.button input{
+    float: right;
+    margin-top: 2rem;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #2980b9;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.button input:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    background-color: #004777;
+}
+    </style>
+</head>
+
+<body>
+    <div id="container">
+      <marquee behavior="" direction="left">  <h2>WELCOME TO FAMILY SUITE</h2></marquee><hr>
+        <div class="main_form">
+            <form action="no.php">
+                <div class="form">
+                    <input type="text" placeholder="Enter your Fname" required>
+                    <input type="text" placeholder="Enter your Lname" required>
+                    <input type="number" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="form">
+                    <select name="" id="" required>
+                        <option value="">Choose your ID</option>
+                        <option value="">Aadhar card</option>
+                        <option value="">Voter ID</option>
+                        <option value="">Pan card</option>
+                        <option value="">Driving License</option>
+                    </select>
+
+                    <input type="text" placeholder="Enter your ID number" required>
+                </div>
+
+                <div class="form">
+                    <select name="" id="" required>
+                        <option value="">Children</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+
+                    <select name="" id="" required>
+                        <option value="">Adults</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Book Now">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

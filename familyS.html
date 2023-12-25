@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+        background: url('./family_suite/2.jpg')no-repeat center center/cover;
+    }
+      form{
+        padding: 30px;
+          width: 350px;
+          height: 500px;
+          background-color: rgba(0, 0, 0, 0.63);
+          text-align: center;
+          border-radius: 50px 0 50px 0;
+          margin: auto;
+          margin-top: 3cm;
+      }
+      form h2{
+        color: rgb(255, 255, 255);
+      }
+      form input{
+        margin: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+        border-radius: 30px;
+        border: none;
+        padding: 10px 15px;
+        width: 250px;
+        outline: 0;
+    }
+    .btn input{
+        background-color: rgb(46, 46, 255);
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="familySuiteNewFile.php" method="post">
+   <marquee behavior="" direction="left"> <h2>WELCOME TO FAMILY SUITE</h2></marquee>
+    <hr>
+          <input type="text" placeholder="Enter your name" name="firstName" required>
+          <input type="text" placeholder="Enter your last name" name="lastName" required>
+          <input type="number" placeholder="Enter phone number" name="number" required>
+          <input type="text" placeholder="Enter Id" name="chid" required>
+          <input type="number" placeholder="Id NUmber" name="idnumber" required>
+          <input type="number" placeholder="How many adults" name="adults" required>
+          <input type="number" placeholder="How many children" name="children" required>
+              <div class="btn">
+          <input type="submit">
+              </div>
+  </form>
+</body>
+
+</html>
